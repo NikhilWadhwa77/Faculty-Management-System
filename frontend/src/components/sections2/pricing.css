@@ -1,0 +1,26 @@
+.pricing-heading {
+    text-align: center;
+    background-color: #fff;
+    margin: 0;
+}
+
+.pricing-container {
+    margin: 0;
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3% 4% 8%;
+}
+
+
+.pricing-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(223, 223, 223);
+    color: black;
+    width: 400px;
+    /* height: 400px; */
+    padding: 2% 5%;
+    display: inline-block;
+}

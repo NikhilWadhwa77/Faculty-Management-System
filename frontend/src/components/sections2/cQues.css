@@ -1,0 +1,22 @@
+.questions-container {
+    padding: 5% 7%;
+    background-color: orange;
+}
+
+.questions-title {
+    padding-right: 4%;
+    border-right: 2px solid black;
+}
+
+.questions-title h4 {
+    font-weight: 300;
+}
+
+.question {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.answer {
+    margin-bottom: 2rem;
+}

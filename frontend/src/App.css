@@ -1,0 +1,135 @@
+body {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>;
+    font-style: normal; */
+
+}
+
+.navbar-brand {
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+
+.nav-link {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.manager {
+    color: orange;
+}
+
+/* home section */
+/* tite */
+
+.title-container {
+    padding: 10%;
+    /* background-color: aqua; */
+    /* position: relative; */
+}
+
+.title-container ::before {
+    content: "";
+    position: absolute;
+    background-image: url('./images/faculty1.jpg');
+    background-size: cover;
+    opacity: 0.05;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+.title-container h1 {
+    font-weight: 700;
+    font-size: 4rem;
+}
+
+.title-container p {
+    font-size: 1.3rem;
+}
+
+.btn-warning {
+    border-radius: 0;
+    font-weight: 600;
+    color: #fff;
+    background-color: orangered;
+    /* border: none; */
+}
+
+.button-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.learn-more {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.learn-more:hover {
+    cursor: pointer;
+}
+
+/* features */
+
+.features-conatiner {
+    background-color: orange;
+    padding: 3%;
+    color: #000;
+}
+
+.all-features {
+    /* background-color: blueviolet; */
+    /* padding: 4% 1% 4% 8%; */
+    padding: 5%;
+}
+
+.features-card-container {
+    text-align: left;
+    color: #000;
+    /* background-color: aqua; */
+    padding: 5% 7%;
+    background-color: whitesmoke;
+}
+
+.features-card-container i {
+    font-size: 1.8rem;
+}
+
+.features-card-container h2,
+p {
+    font-weight: 500;
+}
+
+.welcome {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+}
+
+.welcome p {
+    font-size: 1.5rem;
+}
+
+.user-icon {
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    padding: 2%;
+    /* text-align: center; */
+    height: 10rem;
+    width: 10rem;
+}
+
+.user-icon i {
+    font-size: 5rem;
+    color: #fff;
+}
