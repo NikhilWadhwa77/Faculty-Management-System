@@ -50,7 +50,7 @@ const Register = () => {
 
         const { name, email, password } = adminData
 
-        const res = await fetch('https://fms-backend-drab.vercel.app/signup', {
+        const res = await fetch('https://fms-backend-l4e7.onrender.com/signup', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
@@ -92,7 +92,7 @@ const Register = () => {
 
         const { email, password } = adminLoginData
 
-        const res = await fetch('https://fms-backend-drab.vercel.app/login', {
+        const res = await fetch('https://fms-backend-l4e7.onrender.com/signin', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
