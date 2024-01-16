@@ -50,7 +50,7 @@ const Register = () => {
 
         const { name, email, password } = adminData
 
-        const res = await fetch('/signup', {
+        const res = await fetch('https://fms-backend-drab.vercel.app/signup', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
@@ -92,7 +92,7 @@ const Register = () => {
 
         const { email, password } = adminLoginData
 
-        const res = await fetch('/signin', {
+        const res = await fetch('https://fms-backend-drab.vercel.app/login', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
